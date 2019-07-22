@@ -98,6 +98,4 @@ func fileDialog(title string, fileType string) (string, error) {
 		return "", nil
 	}
 
-	return "", errors.New("failed to open file dialog")
-
 }
