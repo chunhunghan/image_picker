@@ -1,5 +1,3 @@
-// +build windows,!linux,!darwin,!js
-
 package image_picker
 
 import (
