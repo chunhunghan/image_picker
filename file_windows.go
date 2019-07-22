@@ -94,8 +94,8 @@ func fileDialog(title string, fileType string) (string, error) {
 
 	if getOpenFileName(&ofn) {
 		return stringFromUtf16Ptr(ofn.lpstrFile), nil
-	} else {
-		return "", nil
 	}
+
+	return "", nil
 
 }
