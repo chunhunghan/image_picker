@@ -79,7 +79,7 @@ func fileDialog(title string, fileType string) (string, error) {
 	var filters string
 	switch fileType {
 	case "image":
-		filters = "Image Files(*.png,*.jpg,*.jpeg)|*.png;*.jpg;*.jpeg||"
+		filters = "Image Files(*.png,*.jpg,*.jpeg)\n*.png;*.jpg;*.jpeg\n\n"
 	case "video":
 		filters = "Video Files\\0*.webm;*.mpeg;*.mkv;*.mp4;*.avi;*.mov;*.flv\\0"
 	default:
